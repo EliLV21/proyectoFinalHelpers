@@ -1,0 +1,62 @@
+body{
+	text-align: center;
+}
+.container>.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.contenedorFooter{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+nav{
+	width: 100%;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+i{
+	padding: 0;
+	/*max-height: 1px;*/
+}
+.textoNav{
+	padding: 0;
+	max-height: 1px;
+	padding: 0;
+	margin: 0;
+}
+.texto{
+	padding: 0;
+	margin: 0;
+}
+.texto1{
+	padding-top: 15%;
+}
+img{
+	width: 100%;
+}
+.imgPequenia{
+	padding: 30%;
+}
+.moto{
+	width: 80%;
+}
+.imgLogo{
+	width: 50%;
+	float: left;
+	clear: both;
+}
+.imgFooter{
+	margin: 5%;
+	width: 60%;
+}
+.tituloSeccion{
+	background-image: url(../img/home/tour-bg.png);
+}
+.contenedorFooter{
+	background-image: url(../img/home/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 25%;
+}
