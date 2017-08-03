@@ -6,7 +6,7 @@ gulp.task('pug', function(){
     .pipe(pug({
         pretty: true
     }))
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./dist/'))
 })
 gulp.task('watch', function(){
     gulp.watch('./src/*.pug', ['pug'])

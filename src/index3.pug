@@ -6,8 +6,9 @@ html(lang="es")
 		meta(http-equiv="X-UA-Compatible", content="ie=edge")
 		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css")
 		link(rel="stylesheet" href="../src/assets/css/main.css")
+		link(rel="stylesheet" href="../src/assets/css/main3.css")
 		script(src="https://use.fontawesome.com/3634a5e73d.js")
-		title Gulp-Pug
+		title Gulp-Pug-Sass
 	body
 		section.container
 			nav.row
@@ -36,47 +37,44 @@ html(lang="es")
 							p.texto Lorem
 						section.textoNav.col.l2.textoNav
 							p.texto Lorem
-			section.row.tituloSeccion
-				section.col.l6
-					h5 Lorem ipsum dolor sit amet
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			section.row
-				section.col.l5
-					img(src="../src/assets/img/aboutus/1.png", alt="")
-				section.col.l7
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis commodo felis.
-			section.row
-				section.col.l4
-					img.imgPequenia(src="../src/assets/img/aboutus/3.jpg", alt="")
-					h5 Lorem ipsum dolor sit amet
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis commodo felis.
-				section.col.l4
-					img.imgPequenia(src="../src/assets/img/aboutus/2.jpg", alt="")
-					h5 Lorem ipsum dolor sit amet
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis commodo felis.
-				section.col.l4
-					img.imgPequenia(src="../src/assets/img/aboutus/1.jpg", alt="")
-					h5 Lorem ipsum dolor sit amet
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis commodo felis.
-			section.row.tituloSeccion
+			section.row.tituloBody
 				section.col.l6
 					h5 Lorem ipsum dolor sit amet
 					p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				section.col.l6
-					img.moto(src="../src/assets/img/home/tour-icon2.png", alt="")
+					img(src="../src/assets/img/home/slider/hill.png")
 			section.row
-				section.col.l6.offset-l3
+				section.col.s4.m4.l4.xl4
 					h5 Lorem ipsum dolor sit amet
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis commodo felis.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				section.col.s4.m4.l4.xl4
+					h5 Lorem ipsum dolor sit amet
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				section.col.s4.m4.l4.xl4
+					h5 Lorem ipsum dolor sit amet
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			section.row.tituloSeccion
 			section.row
-				section.col.l3
-					img(src="../src/assets/img/aboutus/4.jpg", alt="")
-				section.col.l3
-					img(src="../src/assets/img/aboutus/3.jpg", alt="")
-				section.col.l3
-					img(src="../src/assets/img/aboutus/2.jpg", alt="")
-				section.col.l3
-					img(src="../src/assets/img/aboutus/1.jpg", alt="")
+				section.col.s5.m5.l5.xl5
+					img(src="../src/assets/img/home/image1.png", alt="")
+				section.col.s7.m7.l7.xl7
+					h5 Lorem ipsum dolor sit amet
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			section.row
+				section.col.s7.m7.l7.xl7
+					h5 Lorem ipsum dolor sit amet
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				section.col.s5.m5.l5.xl5
+					img(src="../src/assets/img/home/image2.png", alt="")
+			section.row
+				section.col.s5.m5.l5.xl5
+					img(src="../src/assets/img/home/image3.png")
+				section.col.s7.m7.l7.xl7
+					h5 Lorem ipsum dolor sit amet
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			section.row
+				section.col.s6.m6.l6.xl6.offset-s3.offset-m3.offset-l3.offset-xl3
+					img(src="../src/assets/img/home/clients.png")
 			section.row
 				img(src="../src/assets/img/home/under.png", alt="")
 			section.row.contenedorFooter
@@ -107,7 +105,3 @@ html(lang="es")
 						textarea#textarea1.materialize-textarea
 						label(for="textarea1") Textarea
 					a.waves-effect.waves-light.btn SUBMIT
-
-
-		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", charset="utf-8")
-		script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js", charset="utf-8")
